@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xuliwen.basecode">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".androidcode.database.DBTestActivity" />
+        <activity android:name=".javacode.xuliehua.serializable.SerializableActivity" />
+        <activity android:name=".javacode.xuliehua.pacelable.ParcelableActivity" />
+        <activity android:name=".javacode.xuliehua.pacelable.ReceiveParcelableActivity" />
+        <activity android:name=".androidcode.ninepng.NinePngActivity" />
+        <activity
+            android:name=".androidcode.intent.IntentActivity1"
+            android:label="IntentActivity1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".androidcode.intent.IntentActivity2"
+            android:label="IntentActivity2">
+            <intent-filter>
+                <action android:name="com.xuliwen.basecode.androidcode.intent.IntentActivity2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.CUSTOM1" />
+                <category android:name="android.intent.category.CUSTOM2" />
+                <category android:name="android.intent.category.CUSTOM3" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xuliwen.basecode.androidcode.intent.IntentActivityTwo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".androidcode.intent.IntentService1"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+
+                <!-- <action android:name="com.xuliwen.basecode.androidcode.intent.IntentService1" /> -->
+                <category android:name="android.intent.category.CUSTOM1" />
+                <category android:name="android.intent.category.CUSTOM2" />
+                <category android:name="android.intent.category.CUSTOM3" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".androidcode.intent.IntentReceiver1"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.xuliwen.basecode.androidcode.intent.IntentReceiver1" />
+
+                <category android:name="android.intent.category.CUSTOM1" />
+                <category android:name="android.intent.category.CUSTOM2" />
+                <category android:name="android.intent.category.CUSTOM3" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".androidcode.intent.DataActivity"
+            android:label="DataActivity">
+            <intent-filter>
+                <action android:name="com.xuliwen.basecode.androidcode.intent.DataActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="www.xuliwen.com"
+                    android:mimeType="DataActivity/one"
+                    android:path="/index"
+                    android:port="8888"
+                    android:scheme="activity" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".androidcode.startmode.StartModeActivity"></activity>
+        <activity android:name=".androidcode.startmode.BaseActivity" />
+        <activity
+            android:name=".androidcode.startmode.StandardActivity"
+            android:label="StandardActivity"
+            android:theme="@style/TranslucentActivity" />
+
+        <!-- android:launchMode="singleTop" -->
+        <activity
+            android:name=".androidcode.startmode.SingleTopActivity"
+            android:label="SingleTopActivity" />
+
+        <!-- android:taskAffinity="com.xuliwen.basecode.b" -->
+        <!-- android:launchMode="singleTask" -->
+        <activity
+            android:name=".androidcode.startmode.SingleTaskActivity"
+            android:label="SingleTaskActivity"
+            android:taskAffinity="com.xuliwen.basecode.b" />
+
+        <!-- android:taskAffinity="com.xuliwen.basecode.b" -->
+        <activity
+            android:name=".androidcode.startmode.SingleInstanceActivity"
+            android:label="SingleInstanceActivity"
+            android:launchMode="singleInstance"
+            android:taskAffinity="com.xuliwen.basecode.b" />
+
+        <service
+            android:name=".androidcode.startmode.MyService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name=".androidcode.startmode.ServiceActivity"
+            android:label="ServiceActivity" />
+        <activity android:name=".androidcode.startmode.ClearActivity" />
+        <activity android:name=".androidcode.intent.IntentActivity3"
+            android:label="IntentActivity3">
+            <intent-filter>
+                <action android:name="com.xuliwen.basecode.androidcode.intent.IntentActivity3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.CUSTOM1" />
+                <category android:name="android.intent.category.CUSTOM2" />
+                <category android:name="android.intent.category.CUSTOM3" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>
