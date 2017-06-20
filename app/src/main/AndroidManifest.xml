@@ -20,13 +20,7 @@
         <activity android:name=".androidcode.ninepng.NinePngActivity" />
         <activity
             android:name=".androidcode.intent.IntentActivity1"
-            android:label="IntentActivity1">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:label="IntentActivity1"></activity>
         <activity
             android:name=".androidcode.intent.IntentActivity2"
             android:label="IntentActivity2">
@@ -87,7 +81,13 @@
                     android:scheme="activity" />
             </intent-filter>
         </activity>
-        <activity android:name=".androidcode.startmode.StartModeActivity"></activity>
+        <activity android:name=".androidcode.startmode.StartModeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".androidcode.startmode.BaseActivity" />
         <activity
             android:name=".androidcode.startmode.StandardActivity"
@@ -122,7 +122,8 @@
             android:name=".androidcode.startmode.ServiceActivity"
             android:label="ServiceActivity" />
         <activity android:name=".androidcode.startmode.ClearActivity" />
-        <activity android:name=".androidcode.intent.IntentActivity3"
+        <activity
+            android:name=".androidcode.intent.IntentActivity3"
             android:label="IntentActivity3">
             <intent-filter>
                 <action android:name="com.xuliwen.basecode.androidcode.intent.IntentActivity3" />
@@ -132,8 +133,8 @@
                 <category android:name="android.intent.category.CUSTOM2" />
                 <category android:name="android.intent.category.CUSTOM3" />
             </intent-filter>
-
         </activity>
+        <activity android:name=".androidcode.startmode.BaseBaseActivity"></activity>
     </application>
 
 </manifest>
