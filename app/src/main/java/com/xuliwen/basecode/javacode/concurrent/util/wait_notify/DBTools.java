@@ -1,4 +1,4 @@
-package com.xuliwen.basecode.javacode.concurrent.wait_notify;
+package com.xuliwen.basecode.javacode.concurrent.util.wait_notify;
 
 /**
  * Created by xlw on 2017/6/15.

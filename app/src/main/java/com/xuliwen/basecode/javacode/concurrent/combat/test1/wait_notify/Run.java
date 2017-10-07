@@ -1,8 +1,4 @@
-package com.xuliwen.basecode.javacode.concurrent.wait_notify.yy_interviewer;
-
-import com.xuliwen.basecode.javacode.concurrent.wait_notify.BackUpA;
-import com.xuliwen.basecode.javacode.concurrent.wait_notify.BackUpB;
-import com.xuliwen.basecode.javacode.concurrent.wait_notify.DBTools;
+package com.xuliwen.basecode.javacode.concurrent.combat.test1.wait_notify;
 
 /**
  * Created by xlw on 2017/6/15.

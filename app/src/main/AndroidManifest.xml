@@ -20,7 +20,7 @@
         <activity android:name=".androidcode.ninepng.NinePngActivity" />
         <activity
             android:name=".androidcode.intent.IntentActivity1"
-            android:label="IntentActivity1"></activity>
+            android:label="IntentActivity1" />
         <activity
             android:name=".androidcode.intent.IntentActivity2"
             android:label="IntentActivity2">
@@ -82,11 +82,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".androidcode.startmode.StartModeActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".androidcode.startmode.BaseActivity" />
         <activity
@@ -134,7 +130,16 @@
                 <category android:name="android.intent.category.CUSTOM3" />
             </intent-filter>
         </activity>
-        <activity android:name=".androidcode.startmode.BaseBaseActivity"></activity>
+        <activity android:name=".androidcode.startmode.BaseBaseActivity" />
+        <activity android:name=".androidcode.constraintlayouttest.ConstrainLayoutTestActivity" />
+        <activity android:name=".androidcode.po.drawpo.DrawPoActivity" />
+        <activity android:name=".androidcode.po.POActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

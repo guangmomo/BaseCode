@@ -1,20 +1,23 @@
-package com.xuliwen.basecode.javacode.concurrent.wait_notify.yy_interviewer;
+package com.xuliwen.basecode.javacode.concurrent.combat.test1.countdownlatch;
+
+import java.util.concurrent.CountDownLatch;
 
 /**
  * Created by xlw on 2017/6/15.
  */
 
 public class A extends Thread {
-    public boolean isComplete() {
-        return isComplete;
+
+    private CountDownLatch countDownLatch;
+
+    public A(CountDownLatch countDownLatch){
+        this.countDownLatch=countDownLatch;
     }
 
-    private boolean isComplete=false;//标志A的线程是否执行完成
 
     @Override
     public void run() {
-
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < 20; i++) {
                 System.out.println("执行A" + i);
                 try {
                     Thread.sleep(100);
@@ -22,10 +25,7 @@ public class A extends Thread {
                     e.printStackTrace();
                 }
             }
-        isComplete = true;
-        synchronized (this) {
-            this.notifyAll();
-        }
+        countDownLatch.countDown();
     }
 
 }

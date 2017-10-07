@@ -1,4 +1,4 @@
-package com.xuliwen.basecode.javacode.concurrent.semaphore;
+package com.xuliwen.basecode.javacode.concurrent.util.semaphore;
 
 import java.util.ArrayList;
 import java.util.List;
