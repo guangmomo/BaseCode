@@ -133,13 +133,16 @@
         <activity android:name=".androidcode.constraintlayouttest.ConstrainLayoutTestActivity"/>
         <activity android:name=".androidcode.po.drawpo.DrawPoActivity"/>
         <activity android:name=".androidcode.po.POActivity">
+            
+        </activity>
+        <activity android:name=".javacode.error.ErrorTestActivity">
+        </activity>
+        <activity android:name=".androidcode.scaletype.ScaleTypeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-        </activity>
-        <activity android:name=".javacode.error.ErrorTestActivity">
         </activity>
     </application>
 

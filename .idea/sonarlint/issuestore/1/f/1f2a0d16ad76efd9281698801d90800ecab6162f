@@ -1,0 +1,7 @@
+
+fsquid:CallToDeprecatedMethod"4Remove this use of "getBlockSize"; it is deprecated.(Ø„àûÿÿÿÿ8ü¹ªËù+
+lsquid:CallToDeprecatedMethod":Remove this use of "getAvailableBlocks"; it is deprecated.(¢Ñîşÿÿÿÿ8ü¹ªËù+
+fsquid:S1226"EIntroduce a new variable instead of reusing the parameter "filePath".(µØĞÿÿÿÿÿ8ü¹ªËù+
+lsquid:CallToDeprecatedMethod":Remove this use of "getAvailableBlocks"; it is deprecated.(¢Ñîşÿÿÿÿ8ü¹ªËù+
+lsquid:CallToDeprecatedMethod":Remove this use of "getAvailableBlocks"; it is deprecated.(ÈéÅ¦ûÿÿÿÿ8ü¹ªËù+
+asquid:S1226"EIntroduce a new variable instead of reusing the parameter "filePath".(ã°æ¥8ü¹ªËù+

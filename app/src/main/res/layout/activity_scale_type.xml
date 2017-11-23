@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xuliwen.basecode.androidcode.scaletype.ScaleTypeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/Scaletype.LinearLayout.Theme">
+
+                <ImageView
+                    style="@style/Scaletype.ImageView.Theme"/>
+
+                <TextView
+                    style="@style/Scaletype.TextView.Theme"
+                    android:text="默认scaleType: fitCenter"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/Scaletype.LinearLayout.Theme">
+
+                <ImageView
+                    style="@style/Scaletype.ImageView.Theme"
+                    android:scaleType="fitCenter"/>
+
+                <TextView
+                    style="@style/Scaletype.TextView.Theme"
+                    android:text="fitCenter"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/Scaletype.LinearLayout.Theme">
+
+                <ImageView
+                    style="@style/Scaletype.ImageView.Theme"
+                    android:scaleType="center"/>
+
+                <TextView
+                    style="@style/Scaletype.TextView.Theme"
+                    android:text="center"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                style="@style/Scaletype.LinearLayout.Theme">
+
+                <ImageView
+                    style="@style/Scaletype.ImageView.Theme"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    style="@style/Scaletype.TextView.Theme"
+                    android:text="centerCrop"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/Scaletype.LinearLayout.Theme">
+
+                <ImageView
+                    style="@style/Scaletype.ImageView.Theme"
+                    android:scaleType="centerInside"/>
+
+                <TextView
+                    style="@style/Scaletype.TextView.Theme"
+                    android:text="centerInside"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/Scaletype.LinearLayout.Theme">
+
+                <ImageView
+                    style="@style/Scaletype.ImageView.Theme"
+                    android:scaleType="fitStart"/>
+
+                <TextView
+                    style="@style/Scaletype.TextView.Theme"
+                    android:text="fitStart"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/Scaletype.LinearLayout.Theme">
+
+                <ImageView
+                    style="@style/Scaletype.ImageView.Theme"
+                    android:scaleType="fitEnd"/>
+
+                <TextView
+                    style="@style/Scaletype.TextView.Theme"
+                    android:text="fitEnd"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/Scaletype.LinearLayout.Theme">
+
+                <ImageView
+                    style="@style/Scaletype.ImageView.Theme"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    style="@style/Scaletype.TextView.Theme"
+                    android:text="fitXY"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

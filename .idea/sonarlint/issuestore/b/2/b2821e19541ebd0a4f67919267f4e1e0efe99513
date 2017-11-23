@@ -1,0 +1,15 @@
+
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(…¢¾ö
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(½…É/
+Gsquid:S1172"+Remove this unused method parameter "view".(ª¥Ë‘8–ù²…ö+
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Dsquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+Dsquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¿÷“íûÿÿÿÿ
+Hsquid:S2095"3Close this "FileInputStream" in a "finally" clause.(Œÿ‘
+Isquid:S2095"4Close this "FileOutputStream" in a "finally" clause.(µ³
+isquid:MaximumInheritanceDepth"=This class has 11 parents which is greater than 5 authorized.(¿ŽØüÿÿÿÿ
+Lsquid:S1172"+Remove this unused method parameter "view".(šç˜úÿÿÿÿ8–ù²…ö+
